@@ -6,7 +6,7 @@ router.use(express.json());
 
 const readDataFrutasVerduras = () => {
     try {
-    const data = fs.readFileSync("gs://appfit-b328f.appspot.com/data/origenAnimal.json", "utf8");
+    const data = fs.readFileSync("./src/data/frutasVerduras.json");
     return JSON.parse(data);
     } catch (e) {
         console.log(e)

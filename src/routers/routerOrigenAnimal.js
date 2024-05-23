@@ -6,7 +6,7 @@ router.use(express.json());
 
 const readDataOrigenAnimal = () => {
     try {
-    const data = fs.readFileSync("gs://appfit-b328f.appspot.com/data/origenAnimal.json");
+    const data = fs.readFileSync("gs://appfit-b328f.appspot.com/data/origenAnimal.json"); 
     return JSON.parse(data);
     } catch (e) {
         console.log(e)
