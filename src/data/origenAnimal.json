@@ -1,8 +1,9 @@
 {
     "OrigenAnimal": {
-        "Lacteos": {
-            "Leche": {
-                "ID": "1",
+        "Lacteos": [
+             {
+                "id": "1",
+                "nombre": "Leche",
                 "imagen": "",
                 "porcion": "1 taza (240 ml)",
                 "calorias": 103,
@@ -21,8 +22,9 @@
                 "vitamina_A": "125 mcg",
                 "vitamina_C": "2.8 mg"
             },
-            "Queso Cheddar": {
-                "ID": "2",
+            {
+                "id": "2",
+                "nombre": "Queso Cheddar",
                 "imagen": "",
                 "porcion": "1 onza (28 g)",
                 "calorias": 113,
@@ -41,8 +43,9 @@
                 "vitamina_A": "200 mcg",
                 "vitamina_C": "0 mg"
             },
-            "Yogur Natural": {
-                "ID": "3",
+            {
+                "id": "3",
+                "nombre": "Yogur Natural",
                 "imagen": "",
                 "porcion": "1 taza (245 g)",
                 "calorias": 149,
@@ -62,8 +65,8 @@
                 "vitamina_C": "2.1 mg"
             }
             
-        },
-        "CarnesDerivados": {},
-        "Huevos": {}
+        ],
+        "CarnesDerivados": [],
+        "Huevos": []
     }
 }
